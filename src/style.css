@@ -1,2 +1,37 @@
 body {
 }
+
+footer {
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  padding: 1em;
+  margin: 1em;
+}
+
+.my-work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  padding: 1em;
+  margin: 1em;
+}
+.card img {
+  align-self: center;
+  border: 1px solid red;
+  max-width: 150px;
+  height: auto;
+}
